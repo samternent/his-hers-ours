@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "A Post yo"
+date:   2015-12-14 22:32:01 +0000
+categories: jekyll update hers
+---
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/

@@ -8,15 +8,17 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(https://fonts.googleapis.com/css?family=Karma);
 
 /**
  * Basic styling
  */
 body {
+    // background-image: url('../assets/wallpaper.jpg');
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-color: $background-color;
+    background-color: white;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -24,6 +26,7 @@ body {
     font-feature-settings: "kern" 1;
     font-kerning: normal;
 }
+
 
 
 
@@ -90,20 +93,20 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
-a {
-    color: $brand-color;
-    text-decoration: none;
-
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
-    }
-}
-
+// a {
+//     color: $blue-color;
+//     text-decoration: underline;
+//
+//     &:visited {
+//         color: darken($blue-color, 15%);
+//     }
+//
+//     &:hover {
+//         color: $text-color;
+//         text-decoration: underline;
+//     }
+// }
+//
 
 
 /**

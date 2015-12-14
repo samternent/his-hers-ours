@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: 'Inconsolata', "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -17,6 +17,12 @@ $spacing-unit:     30px;
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
+
+$dark-color:      #30343F;
+$light-color:     #FAFAFF;
+$blue-color:      #006992;
+$green-color:     #E0FF4F;
+$chalk-color:     #799496;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
